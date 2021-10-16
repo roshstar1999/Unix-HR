@@ -1,0 +1,15 @@
+ead x
+read y
+read z
+if [ $x == $y ];then
+   if [ $y == $z ];then
+      echo 'EQUILATERAL'
+   else
+      echo 'ISOSCELES'
+    fi
+elif [ $y == $z ];then
+  echo 'ISOSCELES'
+else
+  echo 'SCALENE'
+  fi
+   
